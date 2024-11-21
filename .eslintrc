@@ -1,0 +1,49 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "prettier/prettier": "error",
+    "max-len": [
+      "warn",
+      {
+        "code": 150
+      }
+    ],
+    "no-console": "warn",
+    "semi": "error",
+    "eol-last": "error",
+    "func-call-spacing": "error",
+    "keyword-spacing": "error",
+    "no-const-assign": "error",
+    "no-dupe-args": "error",
+    "no-dupe-class-members": "error",
+    "no-dupe-keys": "error",
+    "no-duplicate-case": "error",
+    "no-duplicate-imports": "error",
+    "no-eval": "error",
+    "no-extra-semi": "error",
+    "no-fallthrough": "error",
+    "no-mixed-spaces-and-tabs": "error",
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1
+      }
+    ],
+    "no-multi-spaces": "error",
+    "no-negated-in-lhs": "error",
+    "no-redeclare": "error",
+    "key-spacing": "error",
+    "no-var": "error",
+    "comma-spacing": "error",
+    "comma-style": "error",
+    "no-whitespace-before-property": "error",
+    "object-curly-spacing": ["error", "always"],
+    "one-var": "off"
+  }
+}
