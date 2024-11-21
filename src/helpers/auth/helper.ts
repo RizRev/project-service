@@ -1,6 +1,6 @@
 import crypto from "crypto";
 import { globalConfig } from "~/config/environment";
-import credentialRepo from "~/repository/pgsql/credential";
+// import credentialRepo from "~/repository/pgsql/credential";
 
 const iv = globalConfig("/cryptIV");
 const key = globalConfig("/cryptKey");
@@ -26,5 +26,5 @@ export const decrypt = async (text: string) => {
 };
 
 export const checkStatus = async (idAccess: string) => {
-  return await credentialRepo.findOne(idAccess);
+  return null;
 };

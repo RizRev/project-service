@@ -77,3 +77,4 @@ firebase-key.json
 .DS_Store
 
 build
+.vercel
